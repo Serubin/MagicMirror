@@ -1,0 +1,4 @@
+<?php
+
+// ics calendar url
+$url = 'https://www.google.com/calendar/ical/cal_id';
