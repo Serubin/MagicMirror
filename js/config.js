@@ -20,19 +20,19 @@ var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
 var morning = [
             'Good morning, handsome!',
             'Enjoy your day!',
-            'How was your sleep?'
+            'How did you sleep?'
         ];
         
 var afternoon = [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Ready to get stuff done?',
+            'Well well, look at you handsome',
+            'You. Look. Great.'
         ];
        
 var evening = [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'Lookin\' good tonight, aren\'t we?',
+            'You look brilliant!',
+            'Well don\'t you look good.'
         ];
 
 
