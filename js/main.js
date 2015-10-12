@@ -260,7 +260,7 @@ jQuery(document).ready(function($) {
 		}
 
 
-		$.getJSON('http://api.openweathermap.org/data/2.5/weather', weatherParams, function(json, textStatus) {
+		$.getJSON('../weather.php?action=weather', weatherParams, function(json, textStatus) {
 
 			var temp = roundVal(json.main.temp);
 			var temp_min = roundVal(json.main.temp_min);
@@ -314,7 +314,7 @@ jQuery(document).ready(function($) {
 			'13n': 'wi-night-snow',
 			'50n': 'wi-night-alt-cloudy-windy'
 		}
-		$.getJSON('http://api.openweathermap.org/data/2.5/forecast', weatherParams, function(json, textStatus) {
+		$.getJSON('../weather.php?action=forecast', weatherParams, function(json, textStatus) {
 
 			var forecastData = {};
 
