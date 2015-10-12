@@ -14,31 +14,37 @@ var weatherParams = {
 //var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
 //var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
 //var feed = 'http://www.nu.nl/feeds/rss/opmerkelijk.rss';
-var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+//var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+var feed = 'http://www.theonion.com/feeds/rss'
 
 // compliments:
 var morning = [
             'Good morning, handsome!',
             'Enjoy your day!',
-            'How did you sleep?'
+            'How did you sleep?',
+	    'Make today great!',
+	    'Make today yours',
+	    'You\'ve got this',
         ];
         
 var afternoon = [
             'Ready to get stuff done?',
             'Well well, look at you handsome',
-            'You. Look. Great.'
+            'You. Look. Great.',
+	    'Let\'s get shit done',
         ];
        
 var evening = [
             'Lookin\' good tonight, aren\'t we?',
             'You look brilliant!',
-            'Well don\'t you look good.'
+            'Well don\'t you look good.',
+	    'Don\'t forget the pickle!'
         ];
 
 
 // Calendar limiter
 
-var calendar_display_limit = 7; // in days
+var calendar_display_limit = 3; // in days
 
 // Refresh times
 var minute = 1000 * 60;
