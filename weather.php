@@ -2,7 +2,7 @@
 	require_once 'weather_config.php';
 	if(!isset($_REQUEST['action']))
 		return;
-	if(!isset($_REQUEST['id'))
+	if(!isset($_REQUEST['id']))
 		return;
 	if(!isset($_REQUEST['units']))
 		return;
